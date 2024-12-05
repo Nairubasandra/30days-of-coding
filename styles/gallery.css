@@ -1,0 +1,39 @@
+.image{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: row;
+}
+.pic{
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px limegreen;
+    flex-direction: row;
+
+}
+.pic img{
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+.pic :hover{
+    transform: scale(1.1);
+}
+.caption{
+    position: absolute;
+    background-color: saddlebrown;
+    color: mediumblue;
+    text-align: bottom;
+    font-size: 20px;
+    opacity: 0;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    transition: opacity 0.3 ease;
+
+}
+.pic:hover .caption{
+    opacity: 1;
+}

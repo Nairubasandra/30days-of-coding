@@ -1,0 +1,20 @@
+body{
+    background-image: url(./images/Female-business-people-using-laptop-Stock-Photo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-color:red;
+
+}
+h1{
+text-align: center;
+    color: brown;
+    font-style: italic;
+}
+h2{
+    text-align: center;
+    color: greenyellow;
+    margin-left: 50px;
+    font-size: x-large;
+    font-style: italic;
+}
